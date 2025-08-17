@@ -1,7 +1,10 @@
 <?php
 
-//参考 Telegram Bot API
+// 参考 Telegram Bot API
 // https://pisuke-code.com/php-how-to-create-telegram-bot/
+// Cron に登録
+// * * * * * php /<path to file>/chk_nodes.php
+
 
 $urls = [];
 $urls[] = 'https://nis1-node.example.com:7890/chain/height';
