@@ -7,8 +7,8 @@
 
 
 $urls = [];
-$urls[] = 'https://nis1-node.example.com:7890/chain/height';
-$urls[] = 'https://symbol-node.example.com:3000/chain/info';
+$urls[] = 'http://nis1-node.example.com:7890/chain/height';
+$urls[] = 'http://symbol-node.example.com:3000/chain/info';
 
 foreach ($urls as $url) {
 
